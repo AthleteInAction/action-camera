@@ -14,6 +14,8 @@ Below limitations are always a work in progress
 - only supports 16 / 9 camera formats
 - only supports `.builtInWideAngleCamera`
 - only supports camera on back of device
+- only supports .h264
+- only supports 6_000_000 bit rate
 
 ## Usage
 ### Module
