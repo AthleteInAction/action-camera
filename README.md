@@ -103,7 +103,7 @@ public struct ExampleCameraView: View {
                         deleteFile(path: videoPath)
                     } else {
                         /// if the file for a recording already exists, the recording will fail
-                        /// so we delete the existing file beforehand in this example
+                        /// so we delete the existing file, if it exists, beforehand in this example
                         /// you will need to manage your own logic for this
                         deleteFile(path: videoPath)
                         
